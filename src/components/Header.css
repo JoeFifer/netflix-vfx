@@ -1,4 +1,39 @@
+.navbar {
+  margin-bottom: 5px !important;
+}
+
+.topbar {
+  width: 100%;
+  border-bottom: 3px solid #ff0000 !important;
+}
+
 #search {
   margin: 10px;
   border-radius: 10px;
+}
+
+.router {
+  background: #222 !important;
+  height: 50px;
+}
+
+.router .container {
+  width: 100%;
+  border-bottom: 3px solid #999;
+}
+
+.router .container .nav.navbar-nav {
+    text-align: center; 
+}
+
+.router ul {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+.router ul li a {
+  text-decoration: none;
+  color: #fff;
 }
