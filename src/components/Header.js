@@ -19,7 +19,7 @@ class Header extends Component {
         <Navbar className='topbar'>
           <Navbar.Header>
             <Navbar.Brand>
-              <Image height='30' src={ logo } />
+              <a href="/"><Image height='30' src={ logo } /></a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav pullRight>
@@ -36,7 +36,7 @@ class Header extends Component {
             <NavItem eventKey={3} href='/agent'>Agent</NavItem>
             <NavItem eventKey={4} href='/resources'>Resources</NavItem>
             <NavItem eventKey={5} href='/faq'>FAQ</NavItem>
-            <NavItem eventKey={6} href='/guide'>Best Practices/Guidebook</NavItem>
+            <NavItem eventKey={6} href='/guidebook'>Best Practices/Guidebook</NavItem>
           </Nav>
         </Navbar>
       </div>
