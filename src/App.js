@@ -11,15 +11,16 @@ import Agent from './components/Agent.js';
 import Resources from './components/Resources.js';
 import Faq from './components/Faq.js';
 import Guidebook from './components/Guidebook.js';
+import Footer from './components/Footer.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
+        <div className="App">
           <Header />
-          <div className="container">
+          <div className="pages">
             <Route exact path="/" component={Home} />
             <Route path="/vendors" component={Vendors} />
             <Route path="/talent" component={Talent} />
@@ -27,7 +28,8 @@ class App extends Component {
             <Route path="/resources" component={Resources} />
             <Route path="/faq" component={Faq} />
             <Route path="/guidebook" component={Guidebook} />
-          </div>        
+          </div>
+          <Footer />
         </div>
       </Router>
     );

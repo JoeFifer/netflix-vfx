@@ -1,0 +1,49 @@
+.banner {
+  height: 250px;
+  width: 100%;
+  background: #eee;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #999;
+}
+
+.banner .title {
+  width: 50%;
+  float: left;
+}
+
+.banner .title h1 {
+  font-size: 75px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 75px;
+  padding-top: 25px;
+}
+
+.banner .content {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.banner .content .description {
+  padding: 25px;
+}
+
+.banner .content span {
+  text-align: left;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #ff0000;
+  margin-left: 30px;
+}
+
+.regions_nav {
+  background: #eee !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.regions_nav .container {
+  width: 660px;
+}

@@ -1,0 +1,22 @@
+footer {
+  background: #222;
+}
+
+span {
+  font-size: 14pt;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+ul li h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+ul li a {
+  color: #fff;
+}

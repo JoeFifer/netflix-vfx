@@ -10,7 +10,7 @@ import { Navbar,
          FormControl
        } from 'react-bootstrap';
 import logo from './assets/netflix-logo-small.png';
-import './Header.css';
+import './assets/style/Header.css';
 
 class Header extends Component {
   render() {

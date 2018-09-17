@@ -1,10 +1,10 @@
 .navbar {
-  margin-bottom: 5px !important;
+  margin-bottom: 3px !important;
 }
 
 .topbar {
   width: 100%;
-  border-bottom: 3px solid #ff0000 !important;
+  border-bottom: 2px solid #ff0000 !important;
 }
 
 #search {
@@ -19,7 +19,7 @@
 
 .router .container {
   width: 100%;
-  border-bottom: 3px solid #999;
+  border-bottom: 2px solid #999;
 }
 
 .router .container .nav.navbar-nav {
