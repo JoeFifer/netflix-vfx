@@ -1,0 +1,21 @@
+h4 {
+  font-weight: bold;
+}
+
+.panel .panel-heading h3 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.panel .panel-content {
+  padding: 10px;
+}
+
+.panel .panel-content h4 {
+  font-weight: bold;
+}
+
+.panel .panel-content ul li span {
+  font-weight: bold;
+  font-size: 10pt;
+}
