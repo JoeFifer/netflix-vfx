@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Butter from 'buttercms';
 import { BrowserRouter as Router,
          Route,
          Link
@@ -16,6 +17,7 @@ import './App.css';
 
 class App extends Component {
   render() {
+    const butter = Butter('0e9c5385fc2adebd88b9d066f822d57b7b7bf559');
     return (
       <Router>
         <div className="App">
