@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar,
          NavItem,
-         Nav,
-         NavDropdown,
-         MenuItem,
-         FormGroup,
-         FormControl
+         Nav
        } from 'react-bootstrap';
 import './assets/style/Home.css';
   
