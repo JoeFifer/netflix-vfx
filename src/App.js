@@ -5,11 +5,6 @@ import { BrowserRouter as Router,
 import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Vendors from './components/Vendors.js';
-import Talent from './components/Talent.js';
-import Agent from './components/Agent.js';
-import Resources from './components/Resources.js';
-import Faq from './components/Faq.js';
-import Guidebook from './components/Guidebook.js';
 import Page from './components/Page.js';
 import Footer from './components/Footer.js';
 import './App.css';
