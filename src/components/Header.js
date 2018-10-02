@@ -70,7 +70,11 @@ class Header extends Component {
         <Navbar className='router'>
           <Nav>
             <NavItem eventKey={1} href='/vendors'>Vendors</NavItem>
-            { this.state.links }
+            <NavItem eventKey={2} href='/talent'>Talent</NavItem>
+            <NavItem eventKey={3} href='/agent'>Agent</NavItem>
+            <NavItem eventKey={4} href='/resources'>Resources</NavItem>
+            <NavItem eventKey={5} href='/faq'>FAQ</NavItem>
+            <NavItem eventKey={6} href='/guidebook'>Best Practices/Guidebook</NavItem>
           </Nav>
         </Navbar>
       </div>
