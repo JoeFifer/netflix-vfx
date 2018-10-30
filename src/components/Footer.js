@@ -19,7 +19,7 @@ class Footer extends Component {
             </div>                
             <div class="col-lg-2 col-md-2 col-sm-4 col-xs-8">
               <ul class="contact">
-                <span>Footer Column Title</span>    
+                <span>Column Title</span>    
                 <li>
                   <a href="#">Footer Column Link</a>
                 </li>
